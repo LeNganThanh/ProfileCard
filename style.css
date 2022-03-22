@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #000;
+}
+.rick {
+  position: relative;
+  height: 420px;
+  width: 740px;
+  background: rgb(170, 65, 65);
+  margin: 200px auto;
+}
+.sanchez {
+  border: 5px solid white;
+  height: 420px;
+  width: 740px;
+  overflow: hidden;
+  z-index: 0;
+}
+.rich img {
+  background-size: cover;
+  z-index: 1;
+}
+.name {
+  position: relative;
+  height: 100vh;
+  width: 740px;
+}
+.first,
+.last {
+  background:linear-gradient(to right, rgba(245, 245, 245, 0.108),rgba(245, 245, 245, 0.608), rgba(1, 20, 1, 0.719), rgb(1, 20, 1));
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  padding: 0.4rem;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  border: 4px solid green;
+  font-weight: bold;
+  color: rgb(77, 211, 95);
+  text-shadow: 2px 2px black;
+}
+
+.first {
+  position: absolute;
+  right: -20px;
+  top: 15%;
+  z-index: 999;
+}
+.last {
+  position: absolute;
+  right: -20px;
+  top: 30%;
+  z-index: 99;
+}
